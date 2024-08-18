@@ -68,7 +68,7 @@ public class Main {
         int weightEggGram = egg * 70;
         int weightCocktailGram = weightBananaGram + weightMilkGram + weightIceCreamGram + weightEggGram;
         float weightCocktailKiloGram = (float) (weightCocktailGram / 1000);
-        System.out.println("Вес коктейля для спортсменов - " + weightCocktailGram + " (в г) и " + weightCocktailKiloGram + " (в кг)");
+        System.out.println("Вес коктейля для спортсменов равен " + weightCocktailGram + " (в г) и " + weightCocktailKiloGram + " (в кг)");
 
         int weightExcessKiloGram = 7;
         int weightExcessGram = weightExcessKiloGram * 1000;
